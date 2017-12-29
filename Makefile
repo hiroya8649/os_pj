@@ -177,6 +177,7 @@ UPROGS=\
         _foo\
         _chpr\
 	_zombie\
+	_chdl\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
